@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="7OS: The Ultimate Frutiger Aero Bare-Metal Operating System. Experience the future of the past.">
+    <title>7OS - Frutiger Aero Operating System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Background Bubbles -->
+    <div class="bubble" style="width: 150px; height: 150px; top: 10%; left: 5%;"></div>
+    <div class="bubble" style="width: 80px; height: 80px; top: 40%; left: 80%; animation-delay: 2s;"></div>
+    <div class="bubble" style="width: 200px; height: 200px; bottom: 10%; left: 40%; animation-delay: 4s;"></div>
+    
+    <header class="glass">
+        <div class="logo">
+            <span class="logo-icon">🐟</span> 7OS
+        </div>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#preview">Preview</a>
+            <a href="https://github.com/">GitHub</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Breathe Life<br>Into Your PC.</h1>
+                <p>Welcome back to the Frutiger Aero era. 7OS is a custom-built, bare-metal operating system kernel complete with a glassy desktop GUI, dynamic windows, and pure nostalgia.</p>
+                <div class="hero-actions">
+                    <a href="7OS.iso" class="btn primary-btn download-btn">Download .ISO</a>
+                    <a href="https://github.com/" class="btn secondary-btn glass">View Source</a>
+                </div>
+            </div>
+            <div class="hero-image" id="preview">
+                <!-- User will drop preview.png here -->
+                <img src="preview.png" alt="7OS Desktop Interface" onerror="this.src='https://via.placeholder.com/600x450/e0f7fa/0088ff?text=Drop+preview.png+Here'">
+                <div class="reflection"></div>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="feature-card glass">
+                <div class="feature-icon">Aesthetics</div>
+                <h3>Frutiger Aero Aesthetics</h3>
+                <p>Glossy buttons, skeletal glass windows, and vibrant aquatic gradients. A true return to beautiful software.</p>
+            </div>
+            <div class="feature-card glass">
+                <div class="feature-icon">Kernel</div>
+                <h3>Bare-Metal Kernel</h3>
+                <p>Written from scratch in C and Assembly. No Linux kernel underneath—just pure 32-bit hardware interaction.</p>
+            </div>
+            <div class="feature-card glass">
+                <div class="feature-icon">Enviroment and control</div>
+                <h3>Interactive Environment</h3>
+                <p>Move windows seamlessly using WASD and navigate an integrated virtual command line environment.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass footer">
+        <p>&copy; 2026 7OS Corporation. Built with Nostalgia.</p>
+    </footer>
+</body>
+</html>
